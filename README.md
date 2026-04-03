@@ -85,7 +85,7 @@ These are the generic operational layer — the frameworks and methodology that 
 
 ## Built by
 
-[Rutger Katz](https://www.linkedin.com/in/rutgerkatz/) / [Neon Triforce](https://neontriforce.com) — Revenue operations consulting for B2B SaaS companies scaling from EUR 1M to EUR 150M+ ARR.
+[Rutger Katz](https://www.linkedin.com/in/rutgerkatz/) / [Neon Triforce](https://neontriforce.com) — AI Readiness for Revenue Teams for B2B SaaS companies scaling from EUR 5M to EUR 150M+ ARR.
 
 ## Licence
 
