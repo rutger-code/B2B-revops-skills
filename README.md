@@ -1,23 +1,31 @@
-# RevOps Skills for Claude
+# Neon RevOps — the open-source revenue operations layer for Claude
 
-28 purpose-built Claude skills for B2B revenue teams. Drop them into your Claude project to get RevOps, GTM, ICP, positioning, deal velocity, partner ecosystem, and operating cadence expertise on demand.
+28 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
-These skills encode the operational layer of a B2B revenue system — the frameworks, benchmarks, diagnostic patterns, and implementation playbooks that revenue operations teams use daily. Each skill is a standalone markdown file that loads methodology into your Claude session, giving you an expert co-pilot for specific RevOps challenges.
+**Built for:** B2B SaaS companies scaling from €5M to €150M+ ARR — where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
+
+**What you get:**
+- A diagnostics-first framework that finds the real constraint before recommending a fix
+- Implementation playbooks for HubSpot, Salesforce, pipeline architecture, and compensation design
+- ICP, positioning, and sales methodology skills that chain together into a complete GTM workflow
+
+---
 
 ## Quick install
 
 ```bash
-# Clone the repo
-git clone https://github.com/NEON-Rutger/neon-revops-skills.git
+git clone https://github.com/NEON-Rutger/B2B-revops-skills.git
 
-# Copy individual skills into your Claude project
-cp -r neon-revops-skills/revops-strategy/ your-project/.claude/skills/
+# Copy individual skills
+cp -r B2B-revops-skills/revops-diagnostic/ your-project/.claude/skills/
 
-# Or copy all skills at once
-cp -r neon-revops-skills/*/ your-project/.claude/skills/
+# Or install everything
+cp -r B2B-revops-skills/*/ your-project/.claude/skills/
 ```
 
-Each skill is a folder containing a `SKILL.md` file (and optionally a `references/` directory with supporting data). Place the folder in your project's `.claude/skills/` directory. Claude discovers and loads skills automatically.
+Each skill is a folder containing a `SKILL.md` file (and optionally a `references/` directory). Place the folder in your project's `.claude/skills/` directory. Claude discovers and loads skills automatically when you open the project.
+
+---
 
 ## Skills
 
@@ -33,12 +41,12 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `revops-tech-stack` | Tech stack architecture, platform evaluation, capability mapping |
 | `revops-handoffs` | Revenue handoff design across the full bow-tie model |
 | `revops-change-management` | Change management for revenue operations adoption |
-| `revops-crisis` | Emergency response when multiple revenue systems break |
+| `revops-crisis` | Emergency response when multiple revenue systems break simultaneously |
 | `revops-org-chart` | RevOps team design, role structure, hiring sequencing by stage |
 | `revops-hubspot` | HubSpot implementation patterns for RevOps |
 | `revops-salesforce` | Salesforce implementation patterns for RevOps |
 
-### GTM and domain (6 skills)
+### GTM and Domain (6 skills)
 
 | Skill | What it does |
 |---|---|
@@ -49,7 +57,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling — multi-framework |
 | `partner-channel-operations` | Partner programme design, enablement, co-selling, deal registration |
 
-### Pipeline and data (4 skills)
+### Pipeline and Data (4 skills)
 
 | Skill | What it does |
 |---|---|
@@ -58,7 +66,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `data-enrichment` | Enrichment strategy, provider evaluation, integration patterns |
 | `revenue-operating-cadence` | Meeting architecture, data pyramid, board reporting |
 
-### ICP, positioning, and growth (6 skills)
+### ICP, Positioning, and Growth (6 skills)
 
 | Skill | What it does |
 |---|---|
@@ -69,24 +77,44 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `partner-ecosystem-architect` | Ecosystem-led growth, nearbound methodology, partner strategy |
 | `operating-cadence-designer` | Operating cadence design — rituals, dashboards, escalation rules |
 
+---
+
 ## How they work together
 
-Skills chain naturally. Common workflows:
+Skills chain naturally. Start with a diagnostic, then load the specialist.
 
-- **Diagnostic then fix:** `revops-diagnostic` identifies the constraint, then load the relevant specialist skill
-- **ICP to positioning to sales:** `icp-builder` then `positioning-messaging-designer` then `sales-methodology`
-- **Deal flow:** `deal-velocity-engineer` then `pipeline-visibility` then `revops-forecasting`
-- **Partner:** `partner-ecosystem-architect` then `partner-channel-operations` then `revops-handoffs`
-- **Cadence:** `operating-cadence-designer` then `revenue-operating-cadence` then `revops-metrics`
+- **Diagnose then fix:** `revops-diagnostic` finds the constraint → load the relevant specialist skill
+- **ICP to pipeline:** `icp-builder` → `positioning-messaging-designer` → `sales-methodology`
+- **Deal flow:** `deal-velocity-engineer` → `pipeline-visibility` → `revops-forecasting`
+- **Partner motion:** `partner-ecosystem-architect` → `partner-channel-operations` → `revops-handoffs`
+- **Operating rhythm:** `operating-cadence-designer` → `revenue-operating-cadence` → `revops-metrics`
+
+---
 
 ## What's not here
 
-These are the generic operational layer — the frameworks and methodology that any B2B revenue team can use. The full delivery system (proprietary maturity model, diagnostic frameworks, and client-specific delivery skills) is used in private client engagements through [Neon Triforce](https://neontriforce.com).
+These are the generic operational layer — the frameworks and methodology that any B2B revenue team can use.
 
-## Built by
+The full delivery system (proprietary maturity model, diagnostic frameworks, and client-specific delivery skills used in live engagements) is used in private client work through [Neon Triforce](https://neontriforce.com). If your team needs implementation support rather than frameworks to self-serve, that's the conversation to have.
 
-[Rutger Katz](https://www.linkedin.com/in/rutgerkatz/) / [Neon Triforce](https://neontriforce.com) — AI Readiness for Revenue Teams for B2B SaaS companies scaling from EUR 5M to EUR 150M+ ARR.
+## When to hire us
+
+These skills give you the thinking. They won't run a discovery call, facilitate a workshop, or hold your leadership team accountable to a new operating cadence. If you're hitting those limits — or if the diagnostic keeps surfacing the same constraint and nothing changes — [get in touch](https://neontriforce.com).
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). The bar is intentionally high.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+Built by [Rutger Katz](https://www.linkedin.com/in/rutgerkatz/) / [Neon Triforce](https://neontriforce.com)
