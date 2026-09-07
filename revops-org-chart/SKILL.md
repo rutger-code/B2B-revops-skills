@@ -7,7 +7,9 @@ description: >
   order, design a business partner vs. center-of-excellence model, decide when to engage a Systems
   Architect (FTE, fractional, or advisory), evolve a CRM or automation team toward
   RevOps, define who RevOps should report to, establish a mandate or charter,
-  choose centralized vs. embedded vs. hub-and-spoke model, design multi-BU or multi-instance team
+  choose centralized vs. embedded vs. hub-and-spoke model, organize RevOps into outcome pods
+  across the bowtie (build face plus run face, minimum-viable pod, the 40% post-sale rule),
+  design multi-BU or multi-instance team
   structures, or build agencies into your RevOps strategy without creating dependency. Also use when
   you have Business Partners and are considering adding an Architect role.
   Includes frameworks from RevOps Co-op, Revenue Wizards, Hyperscayle, Go Nimbly,
@@ -270,6 +272,43 @@ The perennial debate. Both are right in different contexts.
 - *The reporting line for spokes matters:* dotted line to function head = RevOps credibility but execution proximity; direct report to function = speed but risk of drift
 
 **The question to ask:** Can your centralized team make a binding decision that affects Sales without Sales VP approval? If yes, centralized works. If no, you need embedded spokes with enough central governance to hold the shared layer together.
+
+---
+
+## Outcome Pods: Organizing by What the Team Owns (2026)
+
+The models above organize people by what they know (Systems, Insights, Enablement) or by whom they serve (Business Partners per function). A third pattern emerged in 2026 as AI agents entered the revenue stack: organize by the outcome the team owns, across the full customer lifecycle. Source: Vasco 2026 RevOps Trends and Predictions report (15 contributors) and Owner.com practice (Kyle Norton), synthesized in a March 2026 Winning by Design webinar brief.
+
+**The principle: pods own outcomes, disciplines own craft.** People belong to a discipline (Systems, Insights, Process, Strategy; the archetypes above) for hiring bar, craft standards, and career growth. They deploy into a pod for outcomes and daily work. The disciplines do not disappear; they stop being the org chart.
+
+**The four pods at scale (50+ reps), one per slice of the bowtie:**
+
+| Pod | Owns | Build face ships | Run face runs |
+|---|---|---|---|
+| Acquire | Net-new ARR | Pipeline and forecast models, lead and account scoring | Sales ops, SDR ops, deal qualification |
+| Value Realization | Time-to-first-value, adoption | Onboarding and adoption telemetry | Onboarding and implementation ops |
+| Retain and Expand | NRR, GRR, install base | Churn and expansion-propensity models | Renewals ops, CS ops |
+| Channel and Ecosystem | Partner-sourced revenue | Registration and co-sell workflow agents | Partner ops, channel ops |
+
+**Two faces per pod, same number.** The build face is a PM lead with AI or full-stack engineers who discover what to build with the operators, ship releases, and instrument the outcome. The run face is the operators embedded with the GTM leaders for that outcome: they run the cadence, define the plays the agents automate, and feed the build face what is broken. Both carry the pod's number. A pod is not a build team that hands off and not an ops team waiting for tools.
+
+**Shared services, built once:** Platform and Data (warehouse, agent platform, observability, self-serve analyst agents), Governance and Orchestration (access, data, model, and agent governance), Monetization and Planning (pricing, deal desk, comp, territory, quota). No pod rebuilds the substrate.
+
+**Reporting line:** one VP or SVP owns the whole thing and reports to CEO, COO, or CRO as a peer to the VP of Engineering, not under Sales or Marketing.
+
+**The minimum-viable pod (early stage, $5-50M ARR).** Do not build four pods. Build one that proves the loop: one PM lead who owns the outcome and the backlog, one engineer (AI or full-stack), and the operators who already run that motion. Pick the outcome that is painful, visible, and measurable. Draw platform and data from the center. Add pods only as outcomes earn them. In practice this is the hub-and-spoke model above, with build capacity embedded and the spoke defined by a bowtie outcome instead of a department.
+
+**The 40% post-sale rule.** Even a single pod keeps at least 40% of its capacity on post-sale outcomes: onboarding, adoption, and expansion infrastructure. GTM engineering talent clusters on the left of the bowtie (enrichment, outbound, routing). If your build capacity runs 80/20 left to right, you have a funnel with a new job title, not a revenue system. Audit the split before hiring the next builder.
+
+**You build it, you run it.** The pod that ships an agent gets paged when it misbehaves. Run the revenue system like production: SLAs from platform to pods, tiered support (self-serve, then operator, then engineer, then platform on-call), observability on one pane of glass. Without this, agents join the graveyard of stale dashboards.
+
+**Mechanisms, not meetings.** The pod model runs on a cadence of self-inspecting loops, not a ticket queue: daily input-metric monitoring with stop-the-line authority, a weekly business review and unified forecast call, monthly narrative reviews and correction of errors, quarterly hard goals, an annual operating plan. Pods own the input metrics (pipeline created, coverage, activation time, data freshness); the board reads the outputs (ARR per employee, NRR, GRR, Rule of 40). See `revenue-operating-cadence` for the cadence design.
+
+**When to use this pattern vs. the models above:**
+- Under $15M: flat or departmental; a pod is premature unless AI agents are already in production.
+- $15-50M: one minimum-viable pod on the most painful outcome, inside a departmental or centralized RevOps team.
+- $50M+ with agents in production: hub-and-spoke where the spokes are outcome pods, not functions.
+- Any stage: if RevOps is run as a ticket queue, the first structural change is to give one team end-to-end ownership of one outcome with no handoff to a central queue.
 
 ---
 

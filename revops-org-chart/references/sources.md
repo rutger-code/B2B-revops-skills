@@ -117,3 +117,18 @@ Episode 34 of RevOps Show. Key framing: the Architect role is fundamentally abou
 **URL:** https://www.squad4.io/blog/stop-guessing-revops-budget-definitive-guide
 
 Mature RevOps teams should spend 5-10% of total GTM budget. At $2-5M ARR, 3% of revenue = only $60K-$150K; insufficient for a $180K+ VP. Advice: "Focus early RevOps budget on architecture over administration."
+
+---
+
+## 13. Vasco: 2026 RevOps Trends and Predictions Report
+**URL:** https://vasco.app/blog/2026-revops-trends-predictions
+
+Published December 2025, built from interviews with 15 GTM leaders (Kyle Norton, Jen Igartua, Jeff Ignacio, Matt Volm, Guillaume Jacquet, others). Frames RevOps as shifting "from a service desk to a growth architect and GTM CTO." Two-futures thesis: software absorbs the admin layer, or RevOps becomes the node orchestrating human and AI agents; the middle collapses. Also covers the operating layer (warehouse as intelligence hub, CRM as workspace), the 2025 curious / 2026 faster / 2027 smarter maturity curve, and the human cost of the transition. Vendor-published; read the data-layer claims with that in mind.
+
+---
+
+## 14. Winning by Design webinar brief: The Evolution of RevOps (March 2026)
+**URL:** https://revops-evolution.vercel.app/
+
+Research brief and discussion guide compiled for a Winning by Design webinar on the evolution of the RevOps organization and Growth Architecture. Source of the outcome-pod model: four pods across the bowtie, build face and run face per pod, shared services built once, minimum-viable pod, the 40% post-sale capacity floor, and "mechanisms, not meetings." Also the origin of the GTM Engineer bowtie blind spot critique (talent clusters on acquisition; post-sale gets the leftovers). Author not identified on the page.
+

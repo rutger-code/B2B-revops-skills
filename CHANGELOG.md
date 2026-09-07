@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.6.1], 2026-09-07
+
+### Changed
+- `revops-org-chart`: new section "Outcome Pods: Organizing by What the Team
+  Owns (2026)". Pods own outcomes, disciplines own craft; four pods across the
+  bowtie with a build face and a run face carrying the same number; shared
+  services built once; the minimum-viable pod for $5-50M ARR; the 40% post-sale
+  capacity floor; you build it, you run it; mechanisms, not meetings; stage
+  guidance on when the pattern applies vs. departmental and hub-and-spoke.
+  Sources 13 and 14 added to references (Vasco 2026 report, Winning by Design
+  March 2026 webinar brief).
+
 ## [v1.6.0], 2026-09-01
 
 ### Added
